@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <canvas id="canvas" width="900" height="600"></canvas>
+    <div class="controls">
+        <label>Focal length: <input id="focal1" type="range" min="-500" max="500" /></label> <br/>
+        <label><mark id="ray1mark">Ray 1</mark> <input type="checkbox" id="r1c"> Angle: <input id="r1" type="range" min="-0.8" max="0.8" step="0.01" /></label> <br/>
+        <label><mark id="ray2mark">Ray 2</mark> <input type="checkbox" id="r2c"> Angle: <input id="r2" type="range" min="-0.8" max="0.8" step="0.01" /></label> <br/>
+        <label><mark id="ray3mark">Ray 3</mark> <input type="checkbox" id="r3c"> Angle: <input id="r3" type="range" min="-0.8" max="0.8" step="0.01" /></label> <br/>
+        <button id="rzero">Reset rays</button>
+    </div>
+
+    <script type="module" src="index.js">
+    </script>
+</body>
+</html>

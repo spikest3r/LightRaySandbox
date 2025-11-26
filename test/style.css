@@ -1,0 +1,21 @@
+@media(max-width: 400px) {
+    #canvas {
+        width: 450px;   /* 50% of 900 */
+        height: 300px;  /* 50% of 600 */
+        
+        image-rendering: crisp-edges;
+        image-rendering: pixelated; 
+    }
+}
+
+#ray1mark {
+    background-color: yellow;
+}
+
+#ray2mark {
+    background-color: magenta;
+}
+
+#ray3mark {
+    background-color: palegreen;
+}
